@@ -1,0 +1,107 @@
+
+**** 04/30/19 11:39:19 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab3r"  [ D:\academic glasgow\junior second\ccd\labfile\lab3-pspicefiles\schematic1\lab3r.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "lab3r.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+.INC "D:\academic glasgow\junior second\ccd\labfile\lab3-pspicefiles\schematic1\lab3r\lab3r_profile.inc" 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Amberisy\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+
+**** INCLUDING lab3r_profile.inc ****
+.LIB    ".\opamp.olb" 
+
+**** RESUMING lab3r.cir ****
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 50ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source LAB3
+R_R1         N05823 N01164  3.3k TC=0,0 
+R_R2         N00508 N00429  3.3k TC=0,0 
+R_R3         N00429 N00331  3.3k TC=0,0 
+R_R4         0 N05083  3.3k TC=0,0 
+R_R5         0 N05152  3.3k TC=0,0 
+C_C1         N00429 0  0.1u  TC=0,0 
+R_R6         N01164 N00508  6.8k TC=0,0 
+R_R8         N00331 N00609  6.8k TC=0,0 
+C_C2         N00867 N00609  0.1u  TC=0,0 
+R_R9         0 N00867  3.3k TC=0,0 
+R_R10         0 N00867  3.3k TC=0,0 
+V_V1         N05823 0  AC 100mV
++SIN 0V 100mV 500Hz 0 0 0
+R_R11         0 N05083  10 TC=0,0 
+R_R12         0 N05152  10 TC=0,0 
+
+**** RESUMING lab3r.cir ****
+.END
+
+**** 04/30/19 11:39:19 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab3r"  [ D:\academic glasgow\junior second\ccd\labfile\lab3-pspicefiles\schematic1\lab3r.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00331)    0.0000 (N00429)    0.0000 (N00508)    0.0000 (N00609)    0.0000     
+
+(N00867)    0.0000 (N01164)    0.0000 (N05083)    0.0000 (N05152)    0.0000     
+
+(N05823)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 04/30/19 11:39:19 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-lab3r"  [ D:\academic glasgow\junior second\ccd\labfile\lab3-pspicefiles\schematic1\lab3r.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .05
+

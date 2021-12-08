@@ -1,0 +1,106 @@
+(ExpressProject "lab3"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\lab3.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE")
+    (PSPICE_DoNot_Show_WarningDlg "TRUE"))
+  (Folder "Outputs"
+    (File ".\lab3-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lab3-pspicefiles\schematic1\lab3simu.sim"
+        (DisplayName "SCHEMATIC1-lab3simu")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lab3-pspicefiles\schematic1\lab3repair.sim"
+        (DisplayName "SCHEMATIC1-lab3repair")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\lab3-pspicefiles\schematic1\lab3r.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lab3-pspicefiles\schematic1\lab3r.sim"
+        (DisplayName "SCHEMATIC1-lab3r")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (LM741
+      (FullPartName "LM741.Normal")
+      (LibraryName
+         "D:\ACADEMIC GLASGOW\JUNIOR SECOND\CCD\LABFILE\LAB3-PSPICEFILES\SCHEMATIC1\LAB3R\OPAMP.OLB")
+      (DeviceIndex "0"))
+    (LM741_0
+      (FullPartName "LM741_0.Normal")
+      (LibraryName "D:\ACADEMIC GLASGOW\JUNIOR SECOND\CCD\LABFILE\LAB3.DSN")
+      (DeviceIndex "0"))
+    (VAC
+      (FullPartName "VAC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "D:\academic glasgow\junior second\ccd\labfile\lab3-PSpiceFiles\SCHEMATIC1\lab3r")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\academic glasgow\junior second\ccd\labfile\lab3.dsn")
+      (Path "Design Resources"
+         "D:\academic glasgow\junior second\ccd\labfile\lab3.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "D:\academic glasgow\junior second\ccd\labfile\lab3.dsn" "Design Cache")
+      (Path "Outputs")
+      (Path "PSpice Resources")
+      (Path "PSpice Resources" "Simulation Profiles"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -11 -45 0 371 0 621"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 0 942 -11 -45 76 1881 76 749")
+        (Scroll "29 712")
+        (Zoom "258")
+        (Occurrence "/"))
+      (Path "D:\ACADEMIC GLASGOW\JUNIOR SECOND\CCD\LABFILE\LAB3.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "Amberisy"))
